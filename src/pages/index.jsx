@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx  } from 'theme-ui'
+import { jsx } from 'theme-ui'
 import Link from 'next/link'
 
 import User from '../config/Redux/Store'
@@ -15,7 +15,6 @@ const index = () => {
             <Link href="/add">
                 <a>Add user</a>
             </Link>
-            { console.log(User.getState()) }
         </div>
     )
 }
